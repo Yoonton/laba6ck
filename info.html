@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Информация об актере</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark position-fixed fixed-top">
+            <div class="navbar navbar-expand-lg navbar-dark bg-dark position-fixed fixed-top">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                       <li class="nav-item">
+                           <a class="nav-link active" href="info.html">Основная информация</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link active" href="films.html">Список фильмов</a>
+                      </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <nav id="navbar-example" class="navbar navbar-light bg-light flex-column position-fixed p-3">
+            <a class="navbar-brand" href="#">Навигация</a>
+            <ul class="nav nav-pills flex-column">
+                <li class="nav-item">
+                    <a class="nav-link" href="#carousel">Фотографии</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#cards">Фильмы</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#collapse-info">Информация</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="container-fluid">
+            <div class="row">
+                <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4 offset-3">
+                    <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img class="d-block w-100" src="img/1.png" alt="First slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="img/2.jpg" alt="Second slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="img/3.jpg" alt="Third slide">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="cards" class="container my-5">
+                        <div class="card-group mt-4">
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="img/11.webp">
+                                <div class="card-body">
+                                    <h5 class="card-title">Бегущий по лезвию 2049 </h5>
+                                    <p class="card-text">В недалеком будущем мир населен людьми и репликантами,
+                                         созданными выполнять самую тяжелую работу. Работа офицера полиции Кей — 
+                                         держать репликантов под контролем в условиях нарастающего напряжения.
+                                          Он случайно становится обладателем секретной информации, которая ставит под угрозу существование всего человечества. 
+                                          Желая найти ключ к разгадке, Кей решает разыскать Рика Декарда — 
+                                          бывшего офицера специального подразделения полиции Лос-Анджелеса, 
+                                          который бесследно исчез много лет назад.</p>
+                                </div>
+                                <div class="card-body">
+                                    <a href="https://www.kinopoisk.ru/film/589290/" class="card-link">Бегущий по лезвию 2049</a>
+                                </div>
+                            </div>
+        
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="img/22.webp">
+                                <div class="card-body">
+                                    <h5 class="card-title">Барби</h5>
+                                    <p class="card-text">Барби выгоняют из Барбиленда, потому что она не соответствует его нормам красоты.
+                                        Тогда она начинает новую жизнь в реальном мире, где обнаруживает,
+                                         что совершенства можно достичь только благодаря внутренней гармонии.</p>
+                                </div>
+                                <div class="card-body">
+                                    <a href="https://www.kinopoisk.ru/film/478052/?utm_referrer=www.google.com" class="card-link">Барби</a>
+                                </div>
+                            </div>
+        
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="img/33.webp">
+                                <div class="card-body">
+                                    <h5 class="card-title">Драйв</h5>
+                                    <p class="card-text">Великолепный водитель – 
+                                        при свете дня он выполняет каскадерские трюки на съёмочных площадках Голливуда, 
+                                        а по ночам ведет рискованную игру. Но один опасный контракт – и за его жизнь назначена награда. 
+                                        Теперь, чтобы остаться в живых и спасти свою очаровательную соседку, он должен делать то, что умеет лучше всего – 
+                                        виртуозно уходить от погони.</p>
+                                </div>
+                                <div class="card-body">
+                                    <a href="https://www.kinopoisk.ru/film/276598/" class="card-link">Драйв</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="collapse-info" class="container my-5">
+                        <div id="accordion">
+                            <div class="card">
+                                <div class="card-header" id="headingOne">
+                                    <h5 class="mb-0">
+                                        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne"
+                                            aria-expanded="true" aria-controls="collapseOne">
+                                            Где родился?
+                                        </button>
+                                    </h5>
+                                </div>
+    
+                                <div id="collapseOne" class="collapse" aria-labelledby="headingOne"
+                                    data-parent="#accordion">
+                                    <div class="card-body">
+                                        Гослинг родился и вырос в Канаде.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="headingTwo">
+                                    <h5 class="mb-0">
+                                        <button class="btn btn-link collapsed" data-toggle="collapse"
+                                            data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                            Где учился?
+                                        </button>
+                                    </h5>
+                                </div>
+                                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                    data-parent="#accordion">
+                                    <div class="card-body">
+                                        Райан получил образование в Gladstone Public School, Cornwall Collegiate and Vocational School
+                                         и Lester B. Pearson High School. В детстве он смотрел за Dick Tracy и вдохновился на то, чтобы стать актёром.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="headingThree">
+                                    <h5 class="mb-0">
+                                        <button class="btn btn-link collapsed" data-toggle="collapse"
+                                            data-target="#collapseThree" aria-expanded="false"
+                                            aria-controls="collapseThree">
+                                            Личная жизнь
+                                        </button>
+                                    </h5>
+                                </div>
+                                <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                    data-parent="#accordion">
+                                    <div class="card-body">
+                                        Райан ранее проживал в Нью-Йорке со своей собакой смешанной породы Джорджем. 
+                                        Он совладелец Tagine, марокканского ресторана в Беверли-Хиллз, Калифорния. Он купил ресторан импульсивно; он сказал,
+                                         что потратил на него «все деньги», потратил год на ремонт сам и теперь следит за меню ресторана.
+                                         Райан встречался с Сандрой Буллок, своей партнершей по фильму «Отсчет убийств», в периодом с 2002 по 2003 год. 
+                                         Затем у него были отношения со своей партнершей по фильму «Дневник памяти» Рэйчел Макадамс с 2005 по 2007 год, 
+                                         прежде чем они ненадолго воссоединились в 2008 году.
+                                         Райан состоит в отношениях со своей партнершей по фильму «Место под соснами» Евой Мендес с сентября 2011 года. 
+                                         У пары есть две дочери, Эсмеральда и Амада: одна родилась в 2014 году, а вторая — в 2016-м. 
+                                         В 2022 году Райан тайно женился на Еве Мендес. Гослинг — вегетарианец и филантроп, поддерживает различные социальные инициативы. 
+                                         Он работал с PETA над кампанией, призванной побудить KFC и McDonald's использовать усовершенствованные методы забоя кур 
+                                         на своих заводах, а также над кампанией, призывающей молочных фермеров прекратить обрезание коров. Райан был волонтером в 
+                                         Билокси, штат Миссисипи, в 2005 году, в рамках усилий по ликвидации последствий урагана «Катрина». Он является сторонником 
+                                         Invisible Children, Inc, группы, которая повышает осведомленность о LRA в Центральной Африке. В 2005 году Райан побывал
+                                         в лагерях беженцев Дарфура в Чаде. Он был докладчиком на Национальной конференции Campus Progress в 2008 году, где обсуждал Дарфур.
+                                          В рамках своей работы в рамках Enough Project он посетил Уганду в 2007 году и восточное Конго в 2010 году.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </main>
+            </div>        
+        </div>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+    </body>
+</html>
